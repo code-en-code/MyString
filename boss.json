@@ -1,0 +1,9 @@
+{
+	"name": "mystring",
+	"description": "MyString Library for working with String.",
+	"version": "1.0.0",
+	"homepage": "https://github.com/code-en-code/MyString",
+	"mainsrc": "/src",
+	"projects": [],
+	"dependencies": {}
+}
