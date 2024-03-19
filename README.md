@@ -2,7 +2,7 @@
 <b>MyString</b> Library for working with String.
 
 ## Installation 
-Installation is done using the [`boss install`](https://github.com/code-en-code/MyString) command:
+Installation is done using the [`boss install`](https://github.com/HashLoad/boss) command:
 ``` sh
 boss install https://github.com/code-en-code/MyString
 ```
