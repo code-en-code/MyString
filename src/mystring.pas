@@ -10,7 +10,6 @@ uses
 type
   TMyString = class
   private
-    class function MyTryStrToInt(AString: String): Integer; static;
     { private declarations }
   public
     { public declarations }
@@ -160,17 +159,6 @@ begin
     Result := 0
   else
     Result := (Length(AString) - Length(StringReplace(AString, ASubString, '', [rfReplaceAll]))) div Length(ASubString);
-end;
-
-class function TMyString.MyTryStrToInt(AString: String): Integer;
-begin
-  Result := 0;
-  try
-    if not TryStrToInt(AString, Result) then
-      Result := 0;
-  except
-    Result := 0;
-  end;
 end;
 
 class function TMyString.RemoveCharSpecial(AString: String): String;
